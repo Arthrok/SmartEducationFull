@@ -1,0 +1,59 @@
+[{
+  "_id": {
+    "$oid": "63cd65a194573d2c4e68af14"
+  },
+  "nome": "Antônio Pereira",
+  "matricula": 21100885,
+  "cpf": "279538519013",
+  "email": "antonio@gmail.com",
+  "senha": "$2a$10$tFT2RchnTkOblv8TN3eZd.jsoIZx8fnBMAkJOCg3/FC13F/tHabju",
+  "dataNascimento": "2000-10-15",
+  "cargos": [
+    "coordenador",
+    "professor"
+  ],
+  "_class": "com.smarteducation.smarteducation.model.Schema.Usuario"
+},{
+  "_id": {
+    "$oid": "63cd70b294573d2c4e68af73"
+  },
+  "nome": "Nilton Correia",
+  "matricula": 222630919,
+  "cpf": "61556482981",
+  "email": "niltoncorreia@gmail.com",
+  "senha": "$2a$10$cN2F9WeLzuFMfbfOFQxU9.LHMM64fhqIQJmO8xOt.Q9Jzechcd6sW",
+  "dataNascimento": "1985-10-15",
+  "cargos": [
+    "professor"
+  ],
+  "_class": "com.smarteducation.smarteducation.model.Schema.Usuario"
+},{
+  "_id": {
+    "$oid": "63cd70ec94573d2c4e68af74"
+  },
+  "nome": "Glauco Pedrosa",
+  "matricula": 222800218,
+  "cpf": "54502148474",
+  "email": "glauco@gmail.com",
+  "senha": "$2a$10$/WKN3SgBKN.a.DA5JtKD0Ot4rRCgnh5qfPzcbFTb3EHsiW8clis7a",
+  "dataNascimento": "1980-08-14",
+  "cargos": [
+    "professor"
+  ],
+  "_class": "com.smarteducation.smarteducation.model.Schema.Usuario"
+},{
+  "_id": {
+    "$oid": "63d2fb537a004b1a37e57043"
+  },
+  "nome": "João Pereira Santos",
+  "matricula": 222277817,
+  "cpf": "70363168109",
+  "email": "joao@gmail.com",
+  "senha": "$2a$10$p9ERws7uLaAbZlsTJJmbuuZtY8VC8OqbNiZG3JtdudVLW5HbR2.oe",
+  "dataNascimento": "2001-10-15",
+  "cargos": [
+    "Aluno"
+  ],
+  "linkFoto": "https://cdn-icons-png.flaticon.com/512/74/74472.png",
+  "_class": "com.smarteducation.smarteducation.model.Schema.Usuario"
+}]

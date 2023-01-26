@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "63cd72bc94573d2c4e68af7d"
+  },
+  "nome": "Engenharia de Software",
+  "semestresMin": 10,
+  "semestresMax": 16,
+  "estruturaCurricular": [
+    "Engenharia e Ambiente",
+    "Introdução à Engenharia",
+    "Desenho Industrial Assistido por Computador",
+    "Cálculo 1",
+    "Algoritmos e Programação de Computadores",
+    "Cálculo 2",
+    "Probabilidade e Estatística Aplicado a Engenharia",
+    "Desenvolvimento de Software",
+    "Humanidades e Cidadania"
+  ],
+  "_class": "com.smarteducation.smarteducation.model.Schema.Curso"
+}]

@@ -1,0 +1,400 @@
+[{
+  "_id": {
+    "$oid": "63cd713d94573d2c4e68af75"
+  },
+  "nome": "Engenharia e Ambiente",
+  "codigo": "FGA0161",
+  "professor": "Glauco Pedrosa",
+  "credito": 4,
+  "turma": "T-01",
+  "departamento": "Faculdade do Gama - Brasília",
+  "ano": 2022,
+  "semestre": 1,
+  "grade": [
+    {
+      "dia": "Segunda",
+      "horario": "8h"
+    },
+    {
+      "dia": "Terça",
+      "horario": "8h"
+    }
+  ],
+  "ativo": true,
+  "alunos": [],
+  "_class": "com.smarteducation.smarteducation.model.Schema.Materias"
+},{
+  "_id": {
+    "$oid": "63cd715d94573d2c4e68af76"
+  },
+  "nome": "Introdução à Engenharia",
+  "codigo": "FGA0163",
+  "professor": "Glauco Pedrosa",
+  "credito": 2,
+  "turma": "T-01",
+  "departamento": "Faculdade do Gama - Brasília",
+  "ano": 2022,
+  "semestre": 1,
+  "grade": [
+    {
+      "dia": "Terça",
+      "horario": "10h"
+    }
+  ],
+  "ativo": true,
+  "alunos": [
+    {
+      "curso": {
+        "_id": {
+          "$oid": "63cd72bc94573d2c4e68af7d"
+        },
+        "nome": "Engenharia de Software",
+        "semestresMin": 10,
+        "semestresMax": 16,
+        "estruturaCurricular": [
+          "Engenharia e Ambiente",
+          "Introdução à Engenharia",
+          "Desenho Industrial Assistido por Computador",
+          "Cálculo 1",
+          "Algoritmos e Programação de Computadores",
+          "Cálculo 2",
+          "Probabilidade e Estatística Aplicado a Engenharia",
+          "Desenvolvimento de Software",
+          "Humanidades e Cidadania"
+        ]
+      },
+      "semestre": 0,
+      "historico": [],
+      "nome": "João Pereira Santos",
+      "matricula": 222277817,
+      "email": "joao@gmail.com",
+      "linkFoto": "https://cdn-icons-png.flaticon.com/512/74/74472.png"
+    }
+  ],
+  "_class": "com.smarteducation.smarteducation.model.Schema.Materias"
+},{
+  "_id": {
+    "$oid": "63cd717d94573d2c4e68af77"
+  },
+  "nome": "Desenho Industrial Assistido por Computador",
+  "codigo": "FGA0168",
+  "professor": "Nilton Correia",
+  "credito": 6,
+  "turma": "T-03",
+  "departamento": "Faculdade do Gama - Brasília",
+  "ano": 2022,
+  "semestre": 1,
+  "grade": [
+    {
+      "dia": "Segunda",
+      "horario": "8h"
+    },
+    {
+      "dia": "Quarta",
+      "horario": "8h"
+    },
+    {
+      "dia": "Sexta",
+      "horario": "8h"
+    }
+  ],
+  "ativo": true,
+  "alunos": [
+    {
+      "curso": {
+        "_id": {
+          "$oid": "63cd72bc94573d2c4e68af7d"
+        },
+        "nome": "Engenharia de Software",
+        "semestresMin": 10,
+        "semestresMax": 16,
+        "estruturaCurricular": [
+          "Engenharia e Ambiente",
+          "Introdução à Engenharia",
+          "Desenho Industrial Assistido por Computador",
+          "Cálculo 1",
+          "Algoritmos e Programação de Computadores",
+          "Cálculo 2",
+          "Probabilidade e Estatística Aplicado a Engenharia",
+          "Desenvolvimento de Software",
+          "Humanidades e Cidadania"
+        ]
+      },
+      "semestre": 0,
+      "historico": [],
+      "nome": "João Pereira Santos",
+      "matricula": 222277817,
+      "email": "joao@gmail.com",
+      "linkFoto": "https://cdn-icons-png.flaticon.com/512/74/74472.png"
+    }
+  ],
+  "_class": "com.smarteducation.smarteducation.model.Schema.Materias"
+},{
+  "_id": {
+    "$oid": "63cd71a194573d2c4e68af78"
+  },
+  "nome": "Cálculo 1",
+  "codigo": "MAT0025",
+  "professor": "Glauco Pedrosa",
+  "credito": 6,
+  "turma": "T-02",
+  "departamento": "Faculdade do Gama - Brasília",
+  "ano": 2022,
+  "semestre": 1,
+  "grade": [
+    {
+      "dia": "Segunda",
+      "horario": "14h"
+    },
+    {
+      "dia": "Terça",
+      "horario": "14h"
+    },
+    {
+      "dia": "Quinta",
+      "horario": "14h"
+    }
+  ],
+  "ativo": true,
+  "alunos": [
+    {
+      "curso": {
+        "_id": {
+          "$oid": "63cd72bc94573d2c4e68af7d"
+        },
+        "nome": "Engenharia de Software",
+        "semestresMin": 10,
+        "semestresMax": 16,
+        "estruturaCurricular": [
+          "Engenharia e Ambiente",
+          "Introdução à Engenharia",
+          "Desenho Industrial Assistido por Computador",
+          "Cálculo 1",
+          "Algoritmos e Programação de Computadores",
+          "Cálculo 2",
+          "Probabilidade e Estatística Aplicado a Engenharia",
+          "Desenvolvimento de Software",
+          "Humanidades e Cidadania"
+        ]
+      },
+      "semestre": 0,
+      "historico": [],
+      "nome": "João Pereira Santos",
+      "matricula": 222277817,
+      "email": "joao@gmail.com",
+      "linkFoto": "https://cdn-icons-png.flaticon.com/512/74/74472.png"
+    }
+  ],
+  "_class": "com.smarteducation.smarteducation.model.Schema.Materias"
+},{
+  "_id": {
+    "$oid": "63cd71c994573d2c4e68af79"
+  },
+  "nome": "Algoritmos e Programação de Computadores",
+  "codigo": "CIC0004",
+  "professor": "Nilton Correia",
+  "credito": 6,
+  "turma": "T-01",
+  "departamento": "Faculdade do Gama - Brasília",
+  "ano": 2022,
+  "semestre": 1,
+  "grade": [
+    {
+      "dia": "Segunda",
+      "horario": "8h"
+    },
+    {
+      "dia": "Quarta",
+      "horario": "8h"
+    },
+    {
+      "dia": "Sexta",
+      "horario": "8h"
+    }
+  ],
+  "ativo": true,
+  "alunos": [
+    {
+      "curso": {
+        "_id": {
+          "$oid": "63cd72bc94573d2c4e68af7d"
+        },
+        "nome": "Engenharia de Software",
+        "semestresMin": 10,
+        "semestresMax": 16,
+        "estruturaCurricular": [
+          "Engenharia e Ambiente",
+          "Introdução à Engenharia",
+          "Desenho Industrial Assistido por Computador",
+          "Cálculo 1",
+          "Algoritmos e Programação de Computadores",
+          "Cálculo 2",
+          "Probabilidade e Estatística Aplicado a Engenharia",
+          "Desenvolvimento de Software",
+          "Humanidades e Cidadania"
+        ]
+      },
+      "semestre": 0,
+      "historico": [],
+      "nome": "José Silva",
+      "matricula": 222496860,
+      "email": "jose@gmail.com",
+      "linkFoto": "https://cdn-icons-png.flaticon.com/512/74/74472.png"
+    },
+    {
+      "curso": {
+        "_id": {
+          "$oid": "63cd72bc94573d2c4e68af7d"
+        },
+        "nome": "Engenharia de Software",
+        "semestresMin": 10,
+        "semestresMax": 16,
+        "estruturaCurricular": [
+          "Engenharia e Ambiente",
+          "Introdução à Engenharia",
+          "Desenho Industrial Assistido por Computador",
+          "Cálculo 1",
+          "Algoritmos e Programação de Computadores",
+          "Cálculo 2",
+          "Probabilidade e Estatística Aplicado a Engenharia",
+          "Desenvolvimento de Software",
+          "Humanidades e Cidadania"
+        ]
+      },
+      "semestre": 0,
+      "historico": [],
+      "nome": "Arthur Alves Melo",
+      "matricula": 222037657,
+      "email": "arthuralves1538@gmail.com",
+      "linkFoto": "https://cdn-icons-png.flaticon.com/512/74/74472.png"
+    }
+  ],
+  "_class": "com.smarteducation.smarteducation.model.Schema.Materias"
+},{
+  "_id": {
+    "$oid": "63cd71f294573d2c4e68af7a"
+  },
+  "nome": "Cálculo 2",
+  "codigo": "MAT0026",
+  "requisito": [
+    "Cálculo 1"
+  ],
+  "professor": "Glauco Pedrosa",
+  "credito": 6,
+  "turma": "T-02",
+  "departamento": "Faculdade do Gama - Brasília",
+  "ano": 2022,
+  "semestre": 1,
+  "grade": [
+    {
+      "dia": "Terça",
+      "horario": "8h"
+    },
+    {
+      "dia": "Quarta",
+      "horario": "8h"
+    },
+    {
+      "dia": "Sexta",
+      "horario": "8h"
+    }
+  ],
+  "ativo": true,
+  "alunos": [],
+  "_class": "com.smarteducation.smarteducation.model.Schema.Materias"
+},{
+  "_id": {
+    "$oid": "63cd721a94573d2c4e68af7b"
+  },
+  "nome": "Probabilidade e Estatística Aplicado a Engenharia",
+  "codigo": "FGA0157",
+  "requisito": [
+    "Cálculo 1"
+  ],
+  "professor": "Glauco Pedrosa",
+  "credito": 4,
+  "turma": "T-01",
+  "departamento": "Faculdade do Gama - Brasília",
+  "ano": 2022,
+  "semestre": 1,
+  "grade": [
+    {
+      "dia": "Terça",
+      "horario": "8h"
+    },
+    {
+      "dia": "Quarta",
+      "horario": "8h"
+    }
+  ],
+  "ativo": true,
+  "alunos": [],
+  "_class": "com.smarteducation.smarteducation.model.Schema.Materias"
+},{
+  "_id": {
+    "$oid": "63cd723b94573d2c4e68af7c"
+  },
+  "nome": "Desenvolvimento de Software",
+  "codigo": "FGA0084",
+  "requisito": [
+    "Algoritmos e Programação de Computadores"
+  ],
+  "professor": "Nilton Correia",
+  "credito": 4,
+  "turma": "T-02",
+  "departamento": "Faculdade do Gama - Brasília",
+  "ano": 2022,
+  "semestre": 1,
+  "grade": [],
+  "ativo": true,
+  "_class": "com.smarteducation.smarteducation.model.Schema.Materias"
+},{
+  "_id": {
+    "$oid": "63cd960f2af0172a8cd1c27d"
+  },
+  "nome": "Humanidades e Cidadania",
+  "codigo": "FGA0231",
+  "professor": "Nilton Correia",
+  "credito": 2,
+  "turma": "T-02",
+  "departamento": "Faculdade do Gama - Brasília",
+  "ano": 2022,
+  "semestre": 1,
+  "grade": [
+    {
+      "dia": "Terça",
+      "horario": "8h"
+    }
+  ],
+  "ativo": true,
+  "alunos": [
+    {
+      "curso": {
+        "_id": {
+          "$oid": "63cd72bc94573d2c4e68af7d"
+        },
+        "nome": "Engenharia de Software",
+        "semestresMin": 10,
+        "semestresMax": 16,
+        "estruturaCurricular": [
+          "Engenharia e Ambiente",
+          "Introdução à Engenharia",
+          "Desenho Industrial Assistido por Computador",
+          "Cálculo 1",
+          "Algoritmos e Programação de Computadores",
+          "Cálculo 2",
+          "Probabilidade e Estatística Aplicado a Engenharia",
+          "Desenvolvimento de Software",
+          "Humanidades e Cidadania"
+        ]
+      },
+      "semestre": 0,
+      "historico": [],
+      "nome": "João Pereira Santos",
+      "matricula": 222277817,
+      "email": "joao@gmail.com",
+      "linkFoto": "https://cdn-icons-png.flaticon.com/512/74/74472.png"
+    }
+  ],
+  "_class": "com.smarteducation.smarteducation.model.Schema.Materias"
+}]
