@@ -22,29 +22,37 @@
           <form action="/professor/materia-acess/avaliar" method="post">
               <div class="mb-3">
                   <label for="nota" class="form-label">Nota</label>
-                  <input type="number" class="form-control" name="nota">
+                  <input type="number" class="form-control" name="nota" id="nota">
               </div>
               <div class="mb-3">
                   <label for="frequencia" class="form-label">Frequência</label>
-                  <input type="number" class="form-control" name="frequencia">
+                  <input type="number" class="form-control" name="frequencia" id="frequencia">
                   <input type="text" class="form-control" name="idAluno" th:value="${aluno.id}" hidden>
                   <input type="text" class="form-control" name="idMateria" th:value="${materia.id}" hidden>
               </div>
               <div class="mb-3">
-                  <label for="status" class="form-label">Status</label>
-                  <select class="form-select" aria-label="Default select example" name="status">
-                    <option value="1">Em Curso</option>
-                    <option value="2">Aprovado</option>
-                    <option value="3">Reprovado</option>
-                  </select>
+                  <input type="number" id="status" name="status" hidden>
               </div>
-              <button class="form-control mt-4">Concluir</button>
+              <button class="form-control mt-4" id="but">Concluir</button>
           </form>
       </div>
       </div>
     </div>
 
+    <script>
+      var but = document.getElementById("but")
+      var input = document.getElementById("status")
+      var freq = document.getElementById("frequencia")
+      var nota = document.getElementById("nota")
 
+      but.addEventListener("click", () => {
+        if(nota.value >= 5 && freq.value >= 75){
+          input.value = 2
+        } else {
+          input.value = 3
+        }
+      })
+    </script>
 
 
     
